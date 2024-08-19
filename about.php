@@ -55,8 +55,9 @@ $stmt = $connexion->query ('SELECT * FROM actualite');
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Acceuil</a>
-                        <a href="about.php" class="nav-item nav-link">S'informer</a>
+                        <a href="index.php" class="nav-item nav-link">Acceuil</a>
+                        <a href="about.php" class="nav-item nav-link active">A propos</a>
+                        <a href="about.php" class="nav-item nav-link ">S'informer</a>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
                         <a href="formation.php" class="nav-item nav-link">Se former</a>
 
@@ -78,250 +79,320 @@ $stmt = $connexion->query ('SELECT * FROM actualite');
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">S'informer</h1>
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">A propos</h1>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
-                    <li class="breadcrumb-item active text-primary">S'informer</li>
+                    <li class="breadcrumb-item active text-primary">A propos</li>
                 </ol>    
             </div>
         </div>
         <!-- Header End -->
 
  <!-- About Start -->
- <div class="container-fluid about bg-light py-5">
-    <div class="container py-5">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="about-img pb-5 ps-5">
-                    <img src="img/a propos.jpg" class="img-fluid rounded w-100" style="object-fit: cover; height:600px" alt="Image">
-                    <div class="about-img-inner">
-                        <img src="img/img1.jpg" class="img-fluid rounded-circle"  style=" width: 300px; height: 300px;" alt="Image">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
-                <div class="section-title text-start mb-3">
-                    <h4 class="sub-title  pe-3 mb-0">S'informer</h4>
-                    <h1 class="display-7 mb-4">Encyclopédie médicale en ligne.</h1>
-                    <p class="mb-4">Besoin d'en savoir plus sur une maladie, un symptôme ou un traitement ? Notre encyclopédie médicale en ligne vous permet de trouver rapidement les réponses à vos questions.</p>
-                    Grâce à des articles rédigés par des professionnels de santé, vous découvrirez des informations fiables et détaillées sur une multitude de sujets liés à votre santé :
-                    <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Pathologies (maladies chroniques, infectieuses, rares, etc.)</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Symptômes (maux de tête, douleurs, fièvre, etc.)</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Traitements (médicaments, chirurgie, thérapies alternatives, etc.)</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Tests et examens médicaux</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Prévention et hygiène de vie</h5>
-                  </div>
-                  <p>Vous pouvez effectuer vos recherches par mot-clé, par catégorie ou en utilisant notre moteur de recherche avancé.
-            </div>
-        </div>
-    </div>
-</div>
-<!-- About End -->
-   <!-- About Start -->
-   <div class="container-fluid about py-5">
-    <div class="container py-5">
-        <div class="row g-5 align-items-center">
 
-            <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.4s">
-                <div class="section-title text-start mb-5">
-                    <h1 class="display-7 mb-4">Nous sommes prêts à vous aider à améliorer votre santé.</h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quaerat deleniti amet at atque sequi quibusdam cumque itaque 
-                        repudiandae temporibus, eius nam mollitia voluptas maxime veniam
-                         necessitatibus saepe in ab? Repellat!
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                         Quaerat deleniti amet at atque sequi quibusdam cumque itaque 
-                         repudiandae temporibus, eius nam mollitia voluptas maxime veniam
-                          necessitatibus saepe in ab? Repellat!
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quaerat deleniti amet at atque sequi quibusdam cumque itaque 
-                        repudiandae temporibus, eius nam mollitia voluptas maxime veniam
-                         necessitatibus saepe in ab? Repellat!
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quaerat deleniti amet at atque sequi quibusdam cumque itaque 
-                        repudiandae temporibus, eius nam mollitia voluptas maxime veniam
-                         necessitatibus saepe in ab? Repellat!
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quaerat deleniti amet at atque sequi quibusdam cumque itaque 
-                        repudiandae temporibus, eius nam mollitia voluptas maxime veniam
-                         necessitatibus saepe in ab? Repellat!
-                        </p>
-                   
+ <!-- Section Notre Vision -->
+  
+ <div class="col-md-12">
+      <div class="vision-section text-center p-4">
+      <div class=" mb-3 mt-3 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="sub-style">
+                        <h4 class=" px-3 mb-0 ">Notre vision</h4>
+                 </div>
                 </div>
-            </div>
-            <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
-                <div class="about-img pb-5 ps-5">
-                    <img src="img/a propos.jpg" class="img-fluid rounded w-100" style="object-fit: cover; height:450px" alt="Image">
-                    <div class="about-img-inner">
-                        <img src="img/img1.jpg" class="img-fluid rounded-circle"  style=" width: 300px; height: 300px;" alt="Image">
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
-<!-- About End -->
-
-<style>
-    /* Style pour ajuster la hauteur de l'image */
-    .image-container img {
-      max-height: 100%;
-      width: auto;
-    }
-    .actualite {
-      margin-bottom: 30px;
-    }
-    .date-publication {
-      font-size: 0.9em;
-      color: gray;
-      margin-bottom: 10px;
-    }
-    .d-flex {
-      display: flex !important;
-    }
-    .align-items-start {
-      align-items: flex-start !important;
-     
-    }
-    .p-4 {
-      padding: 1.5rem !important;
-    }
-    .mb-1, .mb-4 {
-      margin-bottom: 1rem !important;
-    }
-    .mt-5 {
-      margin-top: 3rem !important;
-    }
-    h3{
-        margin-top:-30px
-    }
-   
-</style>
-
-</head>
-<body>
+          <p class="vision-text">Nous croyons en une approche holistique de la santé, qui combine les bénéfices de la médecine conventionnelle et les savoirs ancestraux des médecines traditionnelles. Notre objectif est de donner aux utilisateurs les moyens de prendre en charge leur santé de manière autonome et éclairée.</p>
+      </div>
+  </div>
  
-  <div class="container mt-5">
-  <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="sub-style">
-                        <h4 class="sub-title px-3 mb-0">A la une </h4>
-                    </div>
+            <div class="section-title mb-5 mt-5 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0 ">Nos Valeurs</h4>
+                 </div>
                 </div>
+ <div class="container my-5">
+ <div class="row">
+        <!-- Carte Accessibilité -->
+        <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-wheelchair fa-3x"></i>
+                    <h5 class="card-title mt-3">Accessibilité</h5>
+                    <p class="card-text">Rendre les informations et les services de santé facilement accessibles à tous.</p>
+                </div>
+            </div>
+        </div>
 
-  <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-    $photo = $row['photo'];
-    $titre = $row['titre'];
-    $date = $row['date'];
-    $description = $row['description'];
-  ?>
-    <div class="row actualite d-flex align-items-start">
-      <div class="col-md-4">
-        <!-- Image à gauche -->
-        <div class="image-container">
-          <img src="<?php echo $photo; ?>" class="img-fluid" alt="Actualité">
+        <!-- Carte Ouverture d'esprit -->
+        <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-brain fa-3x"></i>
+                    <h5 class="card-title mt-3">Ouverture d'esprit</h5>
+                    <p class="card-text">Promouvoir une vision inclusive de la santé, en valorisant les différentes approches thérapeutiques.</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-8">
-        <!-- Texte descriptif à droite -->
-        <div class="p-4">
-          <h3 ><?php echo $titre; ?></h3>
-          <p class="date-publication">Publié le <?php echo $date; ?></p>
-          <p class="description"><?php echo $description; ?></p>
+
+        <!-- Carte Empowerment -->
+        <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-shield fa-3x"></i>
+                    <h5 class="card-title mt-3">Empowerment</h5>
+                    <p class="card-text">Permettre aux utilisateurs de devenir des acteurs actifs de leur santé.</p>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Carte Collaboration -->
+        <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-hands-helping fa-3x"></i>
+                    <h5 class="card-title mt-3">Collaboration</h5>
+                    <p class="card-text">Favoriser les échanges et la synergie entre professionnels de santé, patients et grand public.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  <?php } ?>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const descriptions = document.querySelectorAll('.description');
-      descriptions.forEach(description => {
-        let words = description.innerText.split(' ');
-        for (let i = 12; i < words.length; i += 12) {
-          words[i] = words[i] + '<br>';
-        }
-        description.innerHTML = words.join(' ');
-      });
-    });
-  </script>
-
-<style>
-    /* Style pour la carte */
-    #map {
-      height: 500px;  /* Hauteur de la carte */
-      width: 100%;    /* Largeur de la carte */
-      margin-bottom:40px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container mt-5">
-  <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="sub-style">
-                        <h4 class="sub-title px-3 mb-0">Carte Sanitaire </h4>
-                    </div>
+            <div class="section-title mb-5 mt-5 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0 ">Nos services clés</h4>
+                 </div>
                 </div>
-    <div id="map"></div>
+            <!-- Section des Services Clés -->
+ <div class="row">
+     <!-- Carte Bibliothèque de ressources santé -->
+     <div class="col-md-3">
+         <div class="card">
+             <div class="card-body text-center">
+                 <i class="fas fa-book fa-3x"></i>
+                 <h5 class="card-title mt-3">Bibliothèque de ressources santé</h5>
+                 <p class="card-text">Accès à des informations fiables et validées sur différentes thématiques de santé.</p>
+             </div>
+         </div>
+     </div>
+
+     <!-- Carte Annuaire des praticiens -->
+     <div class="col-md-3">
+         <div class="card">
+             <div class="card-body text-center">
+                 <i class="fas fa-stethoscope fa-3x"></i>
+                 <h5 class="card-title mt-3">Annuaire des praticiens</h5>
+                 <p class="card-text">Recherche et prise de rendez-vous avec des professionnels de santé certifiés.</p>
+             </div>
+         </div>
+     </div>
+
+     <!-- Carte Programmes de suivi personnalisés -->
+     <div class="col-md-3">
+         <div class="card">
+             <div class="card-body text-center">
+                 <i class="fas fa-calendar-check fa-3x"></i>
+                 <h5 class="card-title mt-3">Programmes de suivi personnalisés</h5>
+                 <p class="card-text">Accompagnement numérique pour la gestion de certaines pathologies ou conditions de santé.</p>
+             </div>
+         </div>
+     </div>
+
+     <!-- Carte Communauté d'entraide -->
+     <div class="col-md-3">
+         <div class="card">
+             <div class="card-body text-center">
+                 <i class="fas fa-users fa-3x"></i>
+                 <h5 class="card-title mt-3">Communauté d'entraide</h5>
+                 <p class="card-text">Échanges et partage d'expériences entre utilisateurs.</p>
+             </div>
+         </div>
+     </div>
+ </div>
+</div>
+    </div>
+ </div>  
+ 
+  <!-- Section Notre Engagement -->
+  
+  <div class="col-md-12">
+      <div class="vision-section text-center p-4">
+      <div class=" mb-3 mt-3 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="sub-style">
+                        <h4 class=" px-3 mb-0 ">Notre Engagement</h4>
+                 </div>
+                </div>
+          <p class="vision-text">Nous croyons en une approche holistique de la santé, qui combine les bénéfices de la médecine conventionnelle et les savoirs ancestraux des médecines traditionnelles. Notre objectif est de donner aux utilisateurs les moyens de prendre en charge leur santé de manière autonome et éclairée.</p>
+      </div>
   </div>
 
-  <script>
-    function initMap() {
-      // Localisation initiale (par exemple, centre d'une ville)
-      const location = { lat: 9.7026, lng: 1.6664 };  // Coordonnées de Djougou, Bénin
-      // Création de la carte
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: location,
-      });
-      // Ajouter un marqueur initial
-      const marker = new google.maps.Marker({
-        position: location,
-        map: map,
-        title: "Djougou Centre",
-      });
-      // Exemple de points d'intérêt
-      const pointsOfInterest = [
-        { lat: 9.7041, lng: 1.6653, title: "Hôpital Général" },
-        { lat: 9.6988, lng: 1.6619, title: "Pharmacie Centrale" },
-        { lat: 9.7059, lng: 1.6701, title: "Clinique Médicale" }
-      ];
-      pointsOfInterest.forEach(point => {
-        new google.maps.Marker({
-          position: { lat: point.lat, lng: point.lng },
-          map: map,
-          title: point.title,
-        });
-      });
+   <!-- Section Notre Equipe -->
+  
+   <div class="col-md-12">
+      <div class=" text-center p-4">
+      <div class=" mb-3 mt-3 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="sub-style">
+                        <h4 class=" px-3 mb-0 ">Notre Equipe</h4>
+                 </div>
+                </div>
+          <p class="">Dokotoro a été fondée par une équipe pluridisciplinaire composée de professionnels de santé, de spécialistes du numérique et d'experts en médecines traditionnelles. Ensemble, nous mettons nos compétences au service de l'amélioration de l'accès aux soins de santé.
+          </p>
+      </div>
+  </div>
+  <div class="container my-5">
+    <div class="row">
+        <!-- Carte Équipe 1 -->
+        <div class="col-md-3">
+            <div class="card team-card">
+                <img src="img/femme.jpg" class="card-img-top" alt="Nom de l'équipe 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Abdoul Akim</h5>
+                    <p class="card-text">Copywritter</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte Équipe 2 -->
+        <div class="col-md-3">
+            <div class="card team-card">
+                <img src="img/chercheur.jpg" class="card-img-top" alt="Nom de l'équipe 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">ADAM Moudjabou</h5>
+                    <p class="card-text">Graphiste</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte Équipe 3 -->
+        <div class="col-md-3">
+            <div class="card team-card">
+                <img src="img/chercheur.jpg" class="card-img-top" alt="Nom de l'équipe 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">KOTO Isdeen</h5>
+                    <p class="card-text">Developpeur</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte Équipe 4 -->
+        <div class="col-md-3">
+            <div class="card team-card">
+                <img src="img/docteur homme.jpg" class="card-img-top" alt="Nom de l'équipe 4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">PANPANGOU Akim</h5>
+                    <p class="card-text">Eleve</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+  
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Ajoute de l'espace en bas de chaque carte */
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card {
+        flex: 1;
     }
-  </script>
+    
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-  <!-- Charger l'API Google Maps avec votre clé API -->
-  <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-  </script>
+    .card-text {
+        flex-grow: 1;
+    }
 
-      
-     
+/* Espacement supplémentaire pour les petits écrans */
+@media (max-width: 768px) {
+  .col-md-3 {
+      margin-bottom: 20px; /* Ajoute de l'espace en bas des colonnes */
+  }
+}
+.vision-section {
+  background-color: #f8f9fa;
+  overflow: hidden; /* Aucun défilement à l'intérieur de la section */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.vision-section h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.vision-text {
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 1.6;
+}
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.team-card .card-img-top {
+  border-radius: 10px 10px 0 0;
+  height: 300px; /* Ajuste la hauteur de l'image */
+  object-fit: cover; /* Pour que l'image s'adapte bien à la taille */
+}
+
+.team-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.team-card .card-text {
+  font-size: 1rem;
+  color: #666;
+}
 
 
-       
-
+</style>
 
         <!-- Footer Start -->
         <div class="container-fluid footer ">

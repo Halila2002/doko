@@ -56,6 +56,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link active">Acceuil</a>
+                        <a href="index.php" class="nav-item nav-link">A propos</a>
                         <a href="about.php" class="nav-item nav-link">S'informer</a>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
                         <a href="formation.php" class="nav-item nav-link">Se former</a>
@@ -292,8 +293,8 @@ margin-top: 60px;
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-img pb-5 ps-5">
-                            <img src="img/a propos.jpg" class="img-fluid rounded" style="object-fit: cover; max-height: 600px; width: 800px;" alt="Image">
-                            <div class="about-img-inner">
+                        <img src="img/chercheur.jpg" class="img-fluid rounded" style="object-fit: cover; max-height: 600px; width: 100%;" alt="Image principale">
+                        <div class="about-img-inner">
                                 <img src="img/img1.jpg" class="img-fluid rounded-circle"  style=" width: 300px; height: 300px;" alt="Image">
                             </div>
                         </div>
@@ -301,18 +302,18 @@ margin-top: 60px;
                     <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
                         <div class="section-title text-start mb-5">
                             <h4 class="sub-title  pe-3 mb-0">S'informer</h4>
-                            <h3 class="display-15 mb-4 " style="font-style:20px">Améliorer l'accès à l'information et aux soins de santé, tout en valorisant les pratiques de médecine traditionnelle et alternative.</h3>
+                            <h3 class="display-15 mb-4 "  style="font-size: 20px;">Améliorer l'accès à l'information et aux soins de santé, tout en valorisant les pratiques de médecine traditionnelle et alternative.</h3>
                             <p class="mb-4" style=" ">Dokotoro est votre plateforme numérique dédiée à 
                                 la santé et au bien-être. Nous vous offrons des ressources
                                  complètes pour vous informer, vous former et vous soigner.
                                   Que vous soyez à la recherche d'informations sur des pathologies, 
                                   de conseils en santé ou d'orientations vers des professionnels, vous êtes au bon endroit !  Elle vise à : </p>
                             <div class="mb-4">
-                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>Fournir des informations sanitaires et de santé publique à la population.</p>
-                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>Valoriser et mettre en avant la pharmacopée locale et les médecines alternatives.</p>
-                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Promouvoir l'éducation et la sensibilisation du public aux bonnes pratiques de santé.</p>
-                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>Offrir des services d'orientation et de conseil aux patients sur les différentes options de soins, y compris la médecine traditionnelle et alternative.</p>
-                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>Faciliter les échanges et la collaboration entre les professionnels de santé et les patients ou le grand public.</p>
+                                <p class=""><i class="fa fa-check text-primary me-2"></i>Fournir des informations sanitaires et de santé publique à la population.</p>
+                                <p class=""><i class="fa fa-check text-primary me-2"></i>Valoriser et mettre en avant la pharmacopée locale et les médecines alternatives.</p>
+                                <p class=""><i class="fa fa-check text-primary me-2"></i> Promouvoir l'éducation et la sensibilisation du public aux bonnes pratiques de santé.</p>
+                                <p class=""><i class="fa fa-check text-primary me-2"></i>Offrir des services d'orientation et de conseil aux patients sur les différentes options de soins, y compris la médecine traditionnelle et alternative.</p>
+                                <p class=""><i class="fa fa-check text-primary me-2"></i>Faciliter les échanges et la collaboration entre les professionnels de santé et les patients ou le grand public.</p>
 
 
                             </div>
@@ -333,7 +334,7 @@ margin-top: 60px;
                     <div class="sub-style">
                         <h4 class="sub-title px-3 mb-0">Recettes Naturelles</h4>
                     </div>
-                    <h3 class="display-7 mb-4"> Recettes naturelles, conçues pour améliorer votre bien-être au quotidien</h3>
+                    <h3 class="display-7 mb-4" style="font-size: 20px;"> Recettes naturelles, conçues pour améliorer votre bien-être au quotidien</h3>
                     <p class="mb-0" >Ici, vous trouverez des remèdes à base d'ingrédients simples et accessibles, qui favorisent la santé physique et mentale. Que ce soit pour renforcer votre immunité, apaiser le stress ou soutenir votre digestion, nos recettes vous offrent des solutions douces et efficaces.</p>
                 </div>
 
@@ -366,6 +367,7 @@ margin-top: 60px;
                 flex-direction: column; /* Stacks cards vertically on small screens */
             }
           
+            
         }
     </style>
 </head>
@@ -427,7 +429,7 @@ margin-top: 60px;
                     <div class="sub-style">
                         <h4 class="sub-title px-3 mb-0">Agents assermentés</h4>
                     </div>
-                    <h3 class="display-7 mb-4">Trouver des professionnels de santé assermentés de toutes spécialités </h3>
+                    <h3 class="display-7 mb-4" style="font-size: 20px;">Trouver des professionnels de santé assermentés de toutes spécialités </h3>
                     <p class="mb-0">Que vous ayez besoin d'un médecin généraliste, d'un spécialiste ou d'un thérapeute, notre annuaire vous permet de rechercher et de consulter des experts certifiés et reconnus. </p>
                 </div>
                 <div class="row g-4 justify-content-center">
@@ -484,9 +486,114 @@ margin-top: 60px;
         </div>
       
         <!-- Team End -->
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Nos Abonnements</h4>
+                    </div>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum sequi reiciendis dignissimos labore inventore ea accusantium doloribus explicabo minus iste repellendus voluptatem expedita neque porro ut, maiores reprehenderit enim minima? </p>
+                </div>
+
+        <div class="container " style ="margin-top:150px">
+  <div class="row justify-content-center">
+      <!-- Carte Accès Gratuit -->
+      <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card " style="height: 400px;">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Accès Gratuit</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">0 FCFA</h6>
+                  <div class="features">
+                      <div><i class="fas fa-check-circle"></i> Accès à la bibliothèque de ressources santé</div>
+                      <div><i class="fas fa-check-circle"></i> Recherche dans l'annuaire des praticiens</div>
+                      <div><i class="fas fa-check-circle"></i> Participation à la communauté d'entraide</div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);color:#efefef;">S'inscrire</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Carte Abonnement Bien-être -->
+      <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card " style="height: 400px;">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Abonnement Bien-être</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">3 000 FCFA/mois</h6>
+                  <div class="features">
+                      <div><i class="fas fa-check-circle"></i> Tout l'accès gratuit</div>
+                      <div><i class="fas fa-check-circle"></i> Programmes de suivi personnalisés</div>
+                      <div><i class="fas fa-check-circle"></i> Vidéos et conseils d'experts</div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-auto" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);color:#efefef;">S'abonner</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Carte Abonnement Santé -->
+      <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card "style="height: 400px;">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Abonnement Santé</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">5 000 FCFA/mois</h6>
+                  <div class="features">
+                      <div><i class="fas fa-check-circle"></i> Tout l'accès Bien-être</div>
+                      <div><i class="fas fa-check-circle"></i> Téléconsultations professionnelles</div>
+                      <div><i class="fas fa-check-circle"></i> Rapports de suivi détaillés</div>
+                      <div><i class="fas fa-check-circle"></i> Réductions partenaires</div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-auto" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); color:#efefef;" >S'abonner</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Carte Abonnement Famille -->
+      <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card " style="height:400px;">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Abonnement Famille</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">8 000 FCFA/mois</h6>
+                  <div class="features">
+                      <div><i class="fas fa-check-circle"></i> Tout l'accès Santé pour 2 adultes</div>
+                      <div><i class="fas fa-check-circle"></i> Gestion des profils familiaux</div>
+                      <div><i class="fas fa-check-circle"></i> Priorité dans l'accès aux services</div>
+                      <div><i class="fas fa-check-circle"></i> Programmes de prévention</div>
+                  </div>
+                  <a href="#" class="btn btn-primary  mt-auto"  style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);color:#efefef;" >S'abonner</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<style>
+    .features {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.features div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.features i {
+    color: #28a745;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+}
 
 
-
+</style>
         
 
         <!-- Footer Start -->

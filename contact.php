@@ -60,13 +60,14 @@ $stmt = $connexion->query('SELECT * FROM test');
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Acceuil</a>
+                        <a href="about.php" class="nav-item nav-link">A propos</a>
                         <a href="about.html" class="nav-item nav-link">S'informer</a>
                         <a href="service.html" class="nav-item nav-link">Se soigner</a>
                         <a href="service.html" class="nav-item nav-link">Se former</a>
 
                        
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
                     </div>
                     <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Reservez un Rdv</a>
                 </div>

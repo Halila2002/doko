@@ -58,7 +58,8 @@ $donnees = $connexion->query("SELECT * FROM docteur");
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Acceuil</a>
+                        <a href="index.php" class="nav-item nav-link ">Acceuil</a>
+                        <a href="about.php" class="nav-item nav-link">A propos</a>
                         <a href="about.php" class="nav-item nav-link">S'informer</a>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
                         <a href="formation.php" class="nav-item nav-link">Se former</a>

@@ -57,7 +57,7 @@ $stmt = $connexion->query ('SELECT * FROM actualite');
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link">Acceuil</a>
                         <a href="about.php" class="nav-item nav-link">A propos</a>
-                        <a href="about.php" class="nav-item nav-link active">S'informer</a>
+                        <a href="informe.php" class="nav-item nav-link active">S'informer</a>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
                         <a href="formation.php" class="nav-item nav-link">Se former</a>
 

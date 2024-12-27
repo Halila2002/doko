@@ -1,4 +1,8 @@
+<?php
+require './bdd.php';
 
+$stmt = $connexion->query ('SELECT * FROM actualite');
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +24,6 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
-
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
@@ -39,7 +42,6 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
-                  
                     <h1 class="text-primary m-0">Dokotoro</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
@@ -49,11 +51,10 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link active">Acceuil</a>
-                        <a href="about.php" class="nav-item nav-link">S'informer</a>
+                        <a href="about.php" class="nav-item nav-link">A propos</a>
+                        <a href="about1.php" class="nav-item nav-link">S'informer</a>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
                         <a href="formation.php" class="nav-item nav-link">Se former</a>
-
-                       
                         </div>
                         <a href="#" class="nav-item nav-link">Contact</a>
                     </div>
@@ -73,7 +74,7 @@
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">S'informer</h1>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Acceuil</a></li>
                     <li class="breadcrumb-item active text-primary">S'informer</li>
                 </ol>    
             </div>
@@ -81,204 +82,155 @@
         <!-- Header End -->
 
   <!-- About Start -->
-  <div class="container-fluid about bg-light py-5">
-    <div class="container py-5">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="about-img pb-5 ps-5">
-                    <img src="img/a propos.jpg" class="img-fluid rounded w-100" style="object-fit: cover; height:600px" alt="Image">
-                    <div class="about-img-inner">
-                        <img src="img/img1.jpg" class="img-fluid rounded-circle"  style=" width: 300px; height: 300px;" alt="Image">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+ 
+           
+
+<div class="container py-5">
+<section id="encyclopedia" class="">
+        <div class="row align-items-center g-6">
+          <!-- Colonne de l'image -->
+          <div class="col-md-6">
+            <img src="img/10780649_19198597.jpg"  class="img-fluid rounded" >
+          </div>
+          <!-- Colonne du texte -->
+          <div class="col-md-6" >
+
+          <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
                 <div class="section-title text-start mb-3">
                     <h4 class="sub-title  pe-3 mb-0">S'informer</h4>
-                    <h1 class="display-7 mb-4">Encyclopédie médicale en ligne.</h1>
-                    <p class="mb-4">Besoin d'en savoir plus sur une maladie, un symptôme ou un traitement ? Notre encyclopédie médicale en ligne vous permet de trouver rapidement les réponses à vos questions.</p>
-                    Grâce à des articles rédigés par des professionnels de santé, vous découvrirez des informations fiables et détaillées sur une multitude de sujets liés à votre santé :
-                    <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Pathologies (maladies chroniques, infectieuses, rares, etc.)</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Symptômes (maux de tête, douleurs, fièvre, etc.)</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Traitements (médicaments, chirurgie, thérapies alternatives, etc.)</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Tests et examens médicaux</h5>
-                  </div>
-                  <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2"></i>
-                  <h5>Prévention et hygiène de vie</h5>
-                  </div>
-                  <p>Vous pouvez effectuer vos recherches par mot-clé, par catégorie ou en utilisant notre moteur de recherche avancé.
-            </div>
-        </div>
+          
     </div>
 </div>
+            <h2>Encyclopédie médicale en ligne</h2>
+            <p>
+              Besoin d'en savoir plus sur une maladie, un symptôme ou un traitement ? Notre encyclopédie médicale en ligne vous permet de trouver rapidement les réponses à vos questions.
+            </p>
+            <ul>
+              <li>Pathologies (maladies chroniques, infectieuses, rares, etc.)</li>
+              <li>Symptômes (maux de tête, douleurs, fièvre, etc.)</li>
+              <li>Traitements (médicaments, chirurgie, thérapies alternatives, etc.)</li>
+              <li>Tests et examens médicaux</li>
+              <li>Prévention et hygiène de vie</li>
+             
+            </ul>
+          </div>
+        </div>
+      </section>
 <!-- About End -->
    <!-- About Start -->
-   <div class="container-fluid about py-5">
-    <div class="container py-5">
-        <div class="row g-5 align-items-center">
-
-            <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.4s">
-                <div class="section-title text-start mb-5">
-                <h4 class="sub-title  pe-3 mb-0">Rechercher une information</h4>
-                <h1 class="display-7 mb-4">Actualités santé.</h1>
-                    <p class="mb-4">Restez à la pointe de l'actualité médicale grâce à notre rubrique "Actualités santé" !</p> 
-                  <p class="mb-4">  Découvrez les dernières innovations, les avancées de 
-                    la recherche, les conseils des experts et les sujets de santé publique qui font débat.
-                  </p>
-                   <p class="mb-4"> Nos journalistes sélectionnent pour vous les informations les plus pertinentes et les décryptent pour 
-                    vous apporter un éclairage complet.
-                   </p>
-                  <p class="mb-4">Vous pouvez également vous abonner à notre newsletter pour recevoir régulièrement un condensé
-                     de l'actualité santé. 
-                    </p>
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 wow fadeInLeft">
-                        <a href="#">Voir les dernières actualités</a>
-                        </div>
-                        <div class="col-lg-6 wow fadeInRight">
-                        <a href="#">s’abonner à notre newsletter</a>
-                    </div>
-                    </div>
-                   
-                </div>
-            </div>
-            <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
-                <div class="about-img pb-5 ps-5">
-                    <img src="img/a propos.jpg" class="img-fluid rounded w-100" style="object-fit: cover; height:450px" alt="Image">
-                    <div class="about-img-inner">
-                        <img src="img/img1.jpg" class="img-fluid rounded-circle"  style=" width: 300px; height: 300px;" alt="Image">
-                    </div>
-                </div>
-            </div>
+  
+<section id="news" class="mb-5" style="margin-top:30px">
+        <div class="container py-5  rounded">
+          <!-- En-tête -->
+      
+          <!-- Texte explicatif -->
+          <div class="row mb-4">
             
-        </div>
+            <div class="col-md-6">
+              
+          <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-start mb-3">
+                    <h4 class="sub-title  pe-3 mb-0">Actualités Santé</h4>
+          
     </div>
 </div>
-<!-- About End -->
- <!-- Tabs Section -->
- <section id="tabs" class="tabs section py-5">
-        <div class="container">
+            <h2>Améliorer votre santé.</h2>
+              <ul class="list-unstyled">
+                <p class="mb-4">Restez à la pointe de l'actualité médicale grâce à notre rubrique "Actualités santé" !</p> 
+                <p class="mb-4">  Découvrez les dernières innovations, les avancées de 
+                  la recherche, les conseils des experts et les sujets de santé publique qui font débat.
+                </p>
+                 <p class="mb-4"> Nos journalistes sélectionnent pour vous les informations les plus pertinentes et les décryptent pour 
+                  vous apporter un éclairage complet.
+                 </p>
+                <p class="mb-4">Vous pouvez également vous abonner à notre newsletter pour recevoir régulièrement un condensé
+                   de l'actualité santé. 
+                  </p>
 
-            <!-- Tab Navigation -->
-            <ul class="nav nav-tabs row d-flex" role="tablist">
-                <li class="nav-item col-6">
-                    <a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1" role="tab">
-                        <i class="bi bi-binoculars"></i>
-                        <h4 class="d-none d-lg-block">Annuaire des réseaux de soins de santé et des professionnels</h4>
-                    </a>
-                </li>
-                <li class="nav-item col-6">
-                    <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2" role="tab">
-                        <i class="bi bi-box-seam"></i>
-                        <h4 class="d-none d-lg-block">Rejoignez notre forum de discussion en ligne</h4>
-                    </a>
-                </li>
-            </ul>
+              </ul>
+              <a href="#" class="btn btn-outline-primary mx-2">S’abonner à la newsletter</a>
 
-            <!-- Tab Content -->
-            <div class="tab-content">
-                <div class="tab-pane fade active show" id="tabs-tab-1" role="tabpanel">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <p class="fst-italic">
-                            Vous cherchez un médecin, un spécialiste ou un autre professionnel de santé ? Notre annuaire en ligne vous permet de trouver facilement les coordonnées et les informations détaillées sur les praticiens présents dans votre région.
-                            </p>
-                            <p>Chaque fiche professionnelle comprend :</p>
-                            <ul>
-                               <i class="bi bi-check2-all"></i> <span>Les coordonnées complètes (adresse, numéro de téléphone, horaires, etc.)</span><br><br>
-                                <i class="bi bi-check2-all"></i> <span>Les diplômes, spécialités et domaines d'intervention.</span><br><br>
-                                <i class="bi bi-check2-all"></i> <span>Les langues parlées.</span><br><br>
-                                <i class="bi bi-check2-all"></i> <span>Les moyens de prise de rendez-vous (téléphone, en ligne, etc.)</span><br><br>
-                                <i class="bi bi-check2-all"></i> <span>Les tarifs pratiqués.</span><br><br>
-                                <i class="bi bi-check2-all"></i> <span>Les avis et notes des patients.</span><br><br>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="img/fich.jpg" alt="Image Onglet 1" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab-pane fade" id="tabs-tab-2" role="tabpanel">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <p class="fst-italic">
-                            Besoin d'échanger avec d'autres personnes sur des sujets de santé ? Rejoignez notre forum de discussion en ligne !
-                            </p>
-                            <p>Ce lieu d'échanges et de partage d'expériences vous permet :</p>
-                            <ul>
-                              <li>  <i class="bi bi-check2-all"></i> <span>De poser vos questions et d'obtenir des réponses de la part d'autres utilisateurs</span></li>
-                              <li>  <i class="bi bi-check2-all"></i> <span>De partager vos témoignages et vos conseils sur des problématiques de santé.</span></li>
-                              <li><i class="bi bi-check2-all"></i> <span>De discuter avec des professionnels de santé qui interviennent régulièrement sur le forum</span></li>
-                              <li><i class="bi bi-check2-all"></i> <span>Les discussions sont organisées par thématiques (pathologies, traitements, bien-être, etc.) pour vous permettre de retrouver facilement les informations qui vous intéressent.</span></li>
-                            </ul>
-                            <p>Nos équipes de modération veillent à la qualité des échanges et au respect de la charte du forum.</p>
-                          </div>
-                          <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="img/americaine.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
             </div>
-
-        </div>
-    </section>
-
-    
-
-
-<style>
-    /* Style pour ajuster la hauteur de l'image */
-    .image-container img {
-      max-height: 100%;
-      width: auto;
-    }
-    .actualite {
-      margin-bottom: 30px;
-    }
-    .date-publication {
-      font-size: 0.9em;
-      color: gray;
-      margin-bottom: 10px;
-    }
-    .d-flex {
-      display: flex !important;
-    }
-    .align-items-start {
-      align-items: flex-start !important;
-     
-    }
-    .p-4 {
-      padding: 1.5rem !important;
-    }
-    .mb-1, .mb-4 {
-      margin-bottom: 1rem !important;
-    }
-    .mt-5 {
-      margin-top: 3rem !important;
-    }
-    h3{
-        margin-top:-30px
-    }
-    
-   
-</style>
-
-</head>
-<body>
+            <div class="col-md-6">
+              <img src="img/female.jpg" alt="Actualités médicales" class="img-fluid rounded">
+            </div>
+          </div>
+ <!-- Zone d'appel à l'action -->
+  <section style=" margin-top:100px">
  
+      <section id="health-directory-forum mb-4" style="padding-left: 20px; padding-right: 20px;">
+        <div class="container">
+      
+          <!-- Annuaire et Forum côte à côte -->
+          <div class="row mb-5">
+            <!-- Annuaire des professionnels de santé -->
+            <div class="col-md-6" style="padding-right: 15px;">
+              <h4 class="">Annuaire des professionnels de santé</h4>
+              <p>Vous cherchez un médecin, un spécialiste ou un autre professionnel de santé ? Notre annuaire en ligne vous permet de trouver facilement les coordonnées et les informations détaillées sur les praticiens présents dans votre région.</p>
+              <ul>
+                <li><strong>Les coordonnées complètes :</strong> Adresse, numéro de téléphone, horaires, etc.</li>
+                <li><strong>Les diplômes, spécialités et domaines d'intervention.</strong></li>
+                <li><strong>Les langues parlées.</strong></li>
+                <li><strong>Les moyens de prise de rendez-vous :</strong> Téléphone, en ligne, etc.</li>
+                <li><strong>Les tarifs pratiqués.</strong></li>
+                <li><strong>Les avis et notes des patients.</strong></li>
+              </ul>
+              <p>Vous pouvez affiner votre recherche par spécialité, par localisation ou par d'autres critères.</p>
+              <p>Une fois votre professionnel de santé identifié, vous pouvez prendre rendez-vous en ligne directement depuis son profil.</p>
+            </div>
+      
+            <!-- Forum de discussion -->
+            <div class="col-md-6" style="padding-left: 15px;">
+              <h4 class="">Rejoignez notre forum de discussion</h4>
+              <p>Participez à notre forum de discussion pour poser vos questions, partager vos expériences ou obtenir des conseils d'autres utilisateurs. C'est un espace d'échange sur des sujets de santé, géré par des professionnels et des utilisateurs passionnés.</p>
+              <p>Que vous soyez à la recherche de réponses à des questions de santé spécifiques ou souhaitez discuter de sujets d'actualité médicale, notre forum vous permet de dialoguer librement dans un environnement sécurisé.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg">Rejoindre le forum</a>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+      <div class="text-center mb-4">
+           <h4> Voir les dernières actualités</h4>
+          </div>
+      <!-- Exemples d’actualités récentes -->
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="img/flat-coronavirus-vaccination-record-card-template_23-2148953253.jpg" alt="Article 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Nouvelle thérapie pour le diabète</h5>
+              <p class="card-text">Les chercheurs ont découvert une approche révolutionnaire...</p>
+              <a href="#" class="btn btn-link">Lire l'article</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="img/doctor-ophthalmologist-s-office.jpg" alt="Article 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Vaccination : les dernières statistiques</h5>
+              <p class="card-text">Les résultats montrent une amélioration significative...</p>
+              <a href="#" class="btn btn-link">Lire l'article</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="img/high-angle-diabetic-woman-checking-her-glucose-level_23-2150775213.jpg" alt="Article 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Alimentation et prévention des maladies</h5>
+              <p class="card-text">Un régime équilibré peut réduire les risques de...</p>
+              <a href="#" class="btn btn-link">Lire l'article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
   <div class="container mt-5">
   <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
@@ -311,30 +263,7 @@
   <?php } ?>
 </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const descriptions = document.querySelectorAll('.description');
-      descriptions.forEach(description => {
-        let words = description.innerText.split(' ');
-        for (let i = 12; i < words.length; i += 12) {
-          words[i] = words[i] + '<br>';
-        }
-        description.innerHTML = words.join(' ');
-      });
-    });
-  </script>
-
-<style>
-    /* Style pour la carte */
-    #map {
-      height: 500px;  /* Hauteur de la carte */
-      width: 100%;    /* Largeur de la carte */
-      margin-bottom:40px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container mt-5">
+<div class="container mt-5">
   <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="sub-style">
                         <h4 class="sub-title px-3 mb-0">Carte Sanitaire </h4>
@@ -463,15 +392,13 @@
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-       
         
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-        <script src="assets/js/main.js"></script>
         
     </body>
 
 </html>
+  
+  

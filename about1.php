@@ -203,9 +203,7 @@
                                 <i class="bi bi-check2-all"></i> <span>Les moyens de prise de rendez-vous (téléphone, en ligne, etc.)</span><br><br>
                                 <i class="bi bi-check2-all"></i> <span>Les tarifs pratiqués.</span><br><br>
                                 <i class="bi bi-check2-all"></i> <span>Les avis et notes des patients.</span><br><br>
-                                <p>Vous pouvez affiner votre recherche par spécialité, par localisation ou par d'autres critères.</p>
-                                <p>Une fois votre professionnel de santé identifié, vous pouvez prendre rendez-vous en ligne directement depuis son profil.</p>
-                                
+                              
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">

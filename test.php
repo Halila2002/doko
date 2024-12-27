@@ -296,3 +296,14 @@ body {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+<ul>
+                               <i class="bi bi-check2-all"></i> <span>Les coordonnées complètes (adresse, numéro de téléphone, horaires, etc.)</span><br><br>
+                                <i class="bi bi-check2-all"></i> <span>Les diplômes, spécialités et domaines d'intervention.</span><br><br>
+                                <i class="bi bi-check2-all"></i> <span>Les langues parlées.</span><br><br>
+                                <i class="bi bi-check2-all"></i> <span>Les moyens de prise de rendez-vous (téléphone, en ligne, etc.)</span><br><br>
+                                <i class="bi bi-check2-all"></i> <span>Les tarifs pratiqués.</span><br><br>
+                                <i class="bi bi-check2-all"></i> <span>Les avis et notes des patients.</span><br><br>
+                                <p>Vous pouvez affiner votre recherche par spécialité, par localisation ou par d'autres critères.</p>
+                                <p>Une fois votre professionnel de santé identifié, vous pouvez prendre rendez-vous en ligne directement depuis son profil.</p>
+                                
+                            </ul>

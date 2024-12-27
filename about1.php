@@ -203,7 +203,6 @@
                                 <i class="bi bi-check2-all"></i> <span>Les moyens de prise de rendez-vous (téléphone, en ligne, etc.)</span><br><br>
                                 <i class="bi bi-check2-all"></i> <span>Les tarifs pratiqués.</span><br><br>
                                 <i class="bi bi-check2-all"></i> <span>Les avis et notes des patients.</span><br><br>
-                              
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">

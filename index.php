@@ -59,7 +59,7 @@
                         <a href="about.php" class="nav-item nav-link">A propos</a>
                         <a href="about1.php" class="nav-item nav-link">S'informer</a>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
-                        <a href="formation.php" class="nav-item nav-link">Se former</a>
+                        <a href="formation.php"      class="nav-item nav-link">Se former</a>
                         </div>
                         <a href="#" class="nav-item nav-link">Contact</a>
                     </div>

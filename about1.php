@@ -52,7 +52,17 @@ $stmt = $connexion->query ('SELECT * FROM actualite');
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link active">Acceuil</a>
                         <a href="about.php" class="nav-item nav-link">A propos</a>
-                        <a href="about1.php" class="nav-item nav-link">S'informer</a>
+                       <!-- Dropdown for "S'informer" -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="sInformerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        S'informer
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sInformerDropdown">
+                        <li><a href="encyclopedie.php" class="dropdown-item">Encyclopédie</a></li>
+                        <li><a href="rubrique.php" class="dropdown-item">Rubrique</a></li>
+                        <li><a href="actualite.php" class="dropdown-item">Actualité</a></li>
+                    </ul>
+                </div>
                         <a href="hopital.php" class="nav-item nav-link">Se soigner</a>
                         <a href="formation.php" class="nav-item nav-link">Se former</a>
                         </div>

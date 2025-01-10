@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopédie Médicale</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: white;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #f8f9fa;
+        }
+
+        .dropdown-menu {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .dropdown-item {
+            color: white;
+        }
+
+        .dropdown-item:hover {
+            color: #007bff;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dictionnaire médical</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Maladies 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="#">Maladies de A à Z</a>
+                        <a class="dropdown-item" href="#">Maladies chez l'adulte</a>
+                        <a class="dropdown-item" href="#">Maladies chez l'enfant</a>
+                        <a class="dropdown-item" href="#">Maladies neurologiques</a>
+                        <a class="dropdown-item" href="#">Maux et maladies de grossesse</a>
+                        <a class="dropdown-item" href="#">Maladies rares</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Santé des patients
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="#">Agir pour ma Santé</a>
+                        <a class="dropdown-item" href="#">Examens, tests et Analyses</a>
+                        <a class="dropdown-item" href="#">Medecine thermale</a>
+                        <a class="dropdown-item" href="#">Grossesse</a>
+                        <a class="dropdown-item" href="#">Voyage</a>
+                        <a class="dropdown-item" href="#">Nutrition</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pharmacologie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pratiques médicales</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Santé mentale</a>
+                </li>
+              
+               
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenu principal -->
+<div class="container mt-4">
+    <h2>Bienvenue dans l'Encyclopédie Médicale</h2>
+    <p>Explorez les grandes sections de la médecine ci-dessus.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+    
+    <!-- Liste des lettres (A-Z) disposée horizontalement -->
+    <div class="alphabet-list">
+        <span class="alphabet" data-letter="A">A</span>
+        <span class="alphabet" data-letter="B">B</span>
+        <span class="alphabet" data-letter="C">C</span>
+        <span class="alphabet" data-letter="D">D</span>
+        <span class="alphabet" data-letter="E">E</span>
+        <span class="alphabet" data-letter="F">F</span>
+        <span class="alphabet" data-letter="G">G</span>
+        <span class="alphabet" data-letter="H">H</span>
+        <span class="alphabet" data-letter="I">I</span>
+        <span class="alphabet" data-letter="J">J</span>
+        <span class="alphabet" data-letter="K">K</span>
+        <span class="alphabet" data-letter="L">L</span>
+        <span class="alphabet" data-letter="M">M</span>
+        <span class="alphabet" data-letter="N">N</span>
+        <span class="alphabet" data-letter="O">O</span>
+        <span class="alphabet" data-letter="P">P</span>
+        <span class="alphabet" data-letter="Q">Q</span>
+        <span class="alphabet" data-letter="R">R</span>
+        <span class="alphabet" data-letter="S">S</span>
+        <span class="alphabet" data-letter="T">T</span>
+        <span class="alphabet" data-letter="U">U</span>
+        <span class="alphabet" data-letter="V">V</span>
+        <span class="alphabet" data-letter="W">W</span>
+        <span class="alphabet" data-letter="X">X</span>
+        <span class="alphabet" data-letter="Y">Y</span>
+        <span class="alphabet" data-letter="Z">Z</span>
+    </div>
+
+    <!-- Section principale -->
+    <div class="main-content">
+        <!-- Sidebar des maladies -->
+        <div class="sidebar">
+            <h3>Liste des Maladies</h3>
+            <ul id="disease-list">
+                <!-- Les maladies seront listées ici selon la lettre sélectionnée -->
+            </ul>
+        </div>
+
+        <!-- Détails de la maladie -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Détails de la maladie -->
+                    <div class="disease-details">
+                        <img id="disease-image" src="images/asthma.jpg" alt="Asthme" class="img-fluid">
+                        <div class="description">
+                            <h2 id="disease-title">Asthme</h2>
+                            <p id="disease-description">L'asthme est une maladie chronique des voies respiratoires qui provoque des difficultés respiratoires. Elle est souvent causée par des allergies, des infections ou des facteurs environnementaux.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Encyclopédie Médicale</p>
+    </footer>
+
+    <!-- Script pour gérer les clics sur les alphabets et les maladies -->
+   
+    <script>
+        // Liste des maladies par lettre
+        const diseases = {
+            A: [
+                { name: "Asthme", image: "images/asthma.jpg", description: "L'asthme est une maladie chronique des voies respiratoires." },
+                { name: "Acné", image: "images/acne.jpg", description: "L'acné est une affection de la peau caractérisée par des boutons." },
+                { name: "Arthrite", image: "images/arthritis.jpg", description: "L'arthrite est une inflammation des articulations." },
+                { name: "Anémie", image: "images/anemia.jpg", description: "L'anémie est un trouble sanguin où il manque de globules rouges." },
+            ],
+            B: [
+                { name: "Bronchite", image: "images/bronchitis.jpg", description: "La bronchite est l'inflammation des bronches, souvent causée par des infections virales." },
+            ],
+            // Ajoutez d'autres lettres avec leurs maladies
+        };
+
+        const alphabetList = document.querySelectorAll('.alphabet');
+        const diseaseListElement = document.getElementById('disease-list');
+        const diseaseTitle = document.getElementById('disease-title');
+        const diseaseImage = document.getElementById('disease-image');
+        const diseaseDescription = document.getElementById('disease-description');
+
+        // Clic sur une lettre de l'alphabet
+        alphabetList.forEach(letter => {
+            letter.addEventListener('click', function () {
+                const letterClicked = this.getAttribute('data-letter');
+                displayDiseases(letterClicked);
+            });
+        });
+
+        // Fonction pour afficher les maladies de la lettre sélectionnée
+        function displayDiseases(letter) {
+            const diseasesForLetter = diseases[letter] || [];
+            diseaseListElement.innerHTML = ''; // Vide la liste des maladies
+
+            diseasesForLetter.forEach(disease => {
+                const listItem = document.createElement('li');
+                listItem.textContent = disease.name;
+                listItem.addEventListener('click', function () {
+                    displayDiseaseDetails(disease);
+                });
+                diseaseListElement.appendChild(listItem);
+            });
+
+            // Afficher par défaut les détails de la première maladie
+            if (diseasesForLetter.length > 0) {
+                displayDiseaseDetails(diseasesForLetter[0]);
+            }
+        }
+
+        // Fonction pour afficher les détails d'une maladie
+        function displayDiseaseDetails(disease) {
+            diseaseTitle.textContent = disease.name;
+            diseaseImage.src = disease.image;
+            diseaseImage.alt = disease.name;
+            diseaseDescription.textContent = disease.description;
+        }
+
+        // Initialiser la page avec les maladies de la lettre A
+        window.onload = function() {
+            displayDiseases('A');
+        };
+        
+    </script>
+
+    <style>
+        /* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Liste des Alphabets */
+.alphabet-list {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.alphabet {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.alphabet:hover {
+    background-color: #0056b3;
+}
+
+/* Contenu principal */
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+#disease-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#disease-list li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+#disease-list li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Détails de la maladie */
+.disease-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+}
+
+.disease-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.disease-details img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.disease-details p {
+    font-size: 16px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+}
+.disease-details {
+    display: flex;
+    flex-direction: row;  /* Assure que l'image et la description sont alignées horizontalement */
+    align-items: flex-start;  /* Aligne verticalement au début pour éviter des décalages */
+    gap: 20px;  /* Espacement entre l'image et la description */
+    margin-top: 20px;
+    max-width: 100%;  /* Assure que le conteneur ne dépasse pas la largeur de l'écran */
+}
+
+.disease-details img {
+    width: 200px;  /* Limite la largeur de l'image */
+    height: auto;  /* Garde les proportions de l'image */
+    max-width: 100%;  /* Permet à l'image de s'adapter à la largeur du conteneur */
+    border-radius: 8px;  /* Bordure arrondie pour l'image */
+}
+
+.disease-details .description {
+    flex-grow: 1;  /* Prend tout l'espace restant dans le conteneur */
+}
+
+.disease-details h2 {
+    font-size: 1.8rem;  /* Taille du titre */
+    margin-bottom: 10px;  /* Espacement sous le titre */
+}
+
+.disease-details p {
+    font-size: 1rem;  /* Taille du texte */
+    color: #555;  /* Couleur du texte */
+}
+
+
+    </style>
+</body>
+</html>
+function displayDiseases(letter) {
+    const diseasesForLetter = diseases[letter] || [];
+    diseaseListElement.innerHTML = ''; // Vide la liste des maladies
+    diseaseDescription.innerHTML = ''; // Vide la description des maladies
+
+    diseasesForLetter.forEach(disease => {
+        const listItem = document.createElement('li');
+        listItem.textContent = disease.name;
+        listItem.addEventListener('click', function () {
+            displayDiseaseDetails(disease);
+        });
+        diseaseListElement.appendChild(listItem);
+
+        // Afficher par défaut les détails de chaque maladie
+        displayDiseaseDetails(disease);
+    });
+}
+ // Afficher les détails de toutes les maladies dès le début
+ diseasesForLetter.forEach(disease => {
+        displayDiseaseDetails(disease);
+    });
+// Fonction pour afficher les détails d'une maladie
+function displayDiseaseDetails(disease) {
+    const diseaseItem = document.createElement('div');
+    const diseaseTitle = document.createElement('h3');
+    diseaseTitle.textContent = disease.name;
+
+    const diseaseImage = document.createElement('img');
+    diseaseImage.src = disease.image;
+    diseaseImage.alt = disease.name;
+
+    const diseaseDescriptionText = document.createElement('p');
+    diseaseDescriptionText.textContent = disease.description;
+
+    diseaseItem.appendChild(diseaseTitle);
+    diseaseItem.appendChild(diseaseImage);
+    diseaseItem.appendChild(diseaseDescriptionText);
+
+    diseaseDescription.appendChild(diseaseItem);
+}
